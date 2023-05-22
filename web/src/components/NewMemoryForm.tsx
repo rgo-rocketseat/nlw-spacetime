@@ -48,7 +48,7 @@ export function NewMemoryForm() {
 
   return (
     <form className="flex flex-1 flex-col gap-2" onSubmit={handleCreateMemory}>
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 p-16">
         <label
           className="hover: flex cursor-pointer items-center gap-1.5 text-sm text-gray-100 text-gray-200"
           htmlFor="media"
